@@ -1,26 +1,36 @@
 (function () { // begin Immediately-Invoked Function Expression
     $(document).ready(function() {
-        const sources = [{
-            googleCalendarId: 'ima528je8m99ap5942tbslqp44@group.calendar.google.com',
-            className: 'anarchist-events',
-            title: "Featured Events",
-            defaultShow: true,
-        }, {
-            googleCalendarId: 'glj5531i5vt6aq3i07vlqo09e1qrbkst@import.calendar.google.com',
-            className: 'the-base',
-            title: 'The Base',
-            defaultShow: true,
-        }, {
-            googleCalendarId: '49d38ogbtcddujpt2u5gm39n9td1bv3p@import.calendar.google.com',
-            className: 'bluestockings',
-            title: 'Bluestockings',
-            defaultShow: false
-        }, {
-            googleCalendarId: 'e7fv8oqc0sqa4ipp7p4i8hpfsc@group.calendar.google.com',
-            className: 'starr-bar',
-            title: "Starr Bar",
-            defaultShow: false
-        },
+        const sources = [
+            {
+                googleCalendarId: 'ima528je8m99ap5942tbslqp44@group.calendar.google.com',
+                className: 'anarchist-events',
+                title: "Featured Events",
+                defaultShow: true,
+            },
+            {
+                googleCalendarId: 'glj5531i5vt6aq3i07vlqo09e1qrbkst@import.calendar.google.com',
+                className: 'the-base',
+                title: 'The Base',
+                defaultShow: true,
+            },
+            {
+                googleCalendarId: '49d38ogbtcddujpt2u5gm39n9td1bv3p@import.calendar.google.com',
+                className: 'bluestockings',
+                title: 'Bluestockings',
+                defaultShow: false
+            },
+            {
+                googleCalendarId: 'e7fv8oqc0sqa4ipp7p4i8hpfsc@group.calendar.google.com',
+                className: 'starr-bar',
+                title: "Starr Bar",
+                defaultShow: false
+            },
+            {
+                googleCalendarId: '069ef82iu5r64c8dt8b4onhjd4@group.calendar.google.com',
+                className: 'mayday-space',
+                title: "Mayday Space",
+                defaultShow: false
+            }
         ];
         var initialized = false;
 
